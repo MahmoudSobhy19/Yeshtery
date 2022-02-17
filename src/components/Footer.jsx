@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import {FiSend} from 'react-icons/fi';
 import {AiFillFacebook, AiFillLinkedin, AiFillInstagram, AiFillTwitterSquare} from 'react-icons/ai';
+import  Cash from '../images/cash.png';
+import  Visa from '../images/visa.jpg';
+import  master from '../images/mastercard.png';
 
 class Footer extends Component {
     state = {  } 
@@ -57,9 +60,9 @@ class Footer extends Component {
                     <div className='copy-right'>
                         <div>&copy; 2021 yeshtery, all right reserved.</div>
                         <div>
-                            <img src='../images/cash.png'/>
-                            <img src='../images/visa.jpg'/>
-                            <img src='../images/mastercard.png'/>
+                            <img src={Cash}/>
+                            <img src={Visa}/>
+                            <img src={master}/>
                         </div>
                         <div>Powered By <span>nasnav</span></div>
                     </div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsHandbag, BsPerson } from "react-icons/bs";
 import { GrFavorite } from "react-icons/gr";
+import images from "../images/adidas.jpg";
 
 
 class Search extends Component {
@@ -23,6 +24,7 @@ class Search extends Component {
           show: false
         })
     }
+
     render() { 
         return (
             <header className='header search'>
@@ -32,7 +34,7 @@ class Search extends Component {
                         <input type="text" placeholder="Search"/>
                     </div>
 
-                    <img src='/images/adidas.jpg' alt='logo'/>
+                    <img src={images} alt='logo'/>
 
                     <div className='flex'>
                         <div className='icons flex' onClick={() => { this.handleShow() }}>

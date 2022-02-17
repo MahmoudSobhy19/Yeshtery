@@ -1,6 +1,6 @@
 export const data = [{
   selectedProduct:{
-    logo: "/images/adidas.jpg",
+    logo: "https://turbologo.com/articles/wp-content/uploads/2019/07/Three-Bars-adidas-logo-1.jpg.webp",
     description: "Adidas black t-shirt Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     category: "Men",
     rate: 4.5,
@@ -20,7 +20,7 @@ export const data = [{
         ]
     },
     similarProducts: [{
-        logo: "/images/adidas.jpg",
+        logo: "https://turbologo.com/articles/wp-content/uploads/2019/07/Three-Bars-adidas-logo-1.jpg.webp",
         description: "Adidas black t-shirt Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         category: "Men",
         rate: 3.5,
@@ -34,7 +34,7 @@ export const data = [{
         location: 'Pickup From Mall of Arab'
     },
     {
-        logo: "/images/adidas.jpg",
+        logo: "https://turbologo.com/articles/wp-content/uploads/2019/07/Three-Bars-adidas-logo-1.jpg.webp",
         description: "Adidas black t-shirt Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         category: "Men",
         rate: 4,
@@ -48,7 +48,7 @@ export const data = [{
         location: 'Pickup From Mall of Egypt'
     },
     {
-        logo: "/images/adidas.jpg",
+        logo: "https://turbologo.com/articles/wp-content/uploads/2019/07/Three-Bars-adidas-logo-1.jpg.webp",
         description: "Adidas black t-shirt Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         category: "Men",
         rate: 5,
@@ -62,7 +62,7 @@ export const data = [{
         location: 'Pickup From Mall of Egypt'
     },
     {   
-        logo: "/images/adidas.jpg",
+        logo: "https://turbologo.com/articles/wp-content/uploads/2019/07/Three-Bars-adidas-logo-1.jpg.webp",
         description: "Adidas black t-shirt Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         category: "Men",
         rate: 2.5,

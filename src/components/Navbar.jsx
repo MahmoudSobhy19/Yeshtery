@@ -4,6 +4,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { FiPhoneCall } from "react-icons/fi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { IoLocationSharp } from "react-icons/io5";
+import logo from "../images/logo.jpg";
 
 class Navbar extends Component {
     state = {  } 
@@ -13,7 +14,7 @@ class Navbar extends Component {
                 <nav className='navbar container flex'>
                     <div className='logo flex'>
                         <GoThreeBars/>
-                        <img src="/images/logo.jpg"/> 
+                        <img src={logo}/> 
                     </div> 
 
                     <div className='offers flex'>

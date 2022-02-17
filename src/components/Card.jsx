@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import StarRatings from 'react-star-ratings';
+import Image360 from "../images/images.jpg";
 
 class Card extends Component {
     constructor(props){
@@ -10,7 +11,7 @@ class Card extends Component {
         return (
             <div className='card flex'>
                 <img className='productimg' src={this.props.prod.img} alt='Product Image'/>
-                <img className='img360' src="../images/images.jpg" alt='Product Image'/>
+                <img className='img360' src={Image360} alt='Product Image'/>
                 <p className='descrip'>{this.props.prod.description}</p>
                 <div className='price-logo'>
                     <div className='price'>

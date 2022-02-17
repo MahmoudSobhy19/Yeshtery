@@ -5,6 +5,8 @@ import StarRatings from 'react-star-ratings';
 import Navbar from "../components/Navbar";
 import Search from "../components/Search";
 import Category from "../components/Category";
+import Image360 from "../images/images.jpg";
+
 
 class Product extends Component {
     constructor (props){
@@ -42,7 +44,7 @@ class Product extends Component {
             <section className='product container'>
                 <div className='left'>
                     <img src={data[0].selectedProduct.img[2]} alt='Product Image'/>
-                    <img className='img360' src="../images/images.jpg" alt='Product Image'/>
+                    <img className='img360' src={Image360} alt='Product Image'/>
                     <Sliderimg img={data[0].selectedProduct.img}/>
                 </div>
                 <div className='right'>
