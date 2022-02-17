@@ -1,0 +1,30 @@
+.cat {
+    .category {
+        background-color: #000000;
+        color: #ffffff;
+    
+        ul {
+            justify-content: space-between;
+            padding: 10px 35px 10px 20px;
+            list-style: none;
+    
+            .active {
+                color: #ff0000;
+            }
+        }
+    }
+
+    .links {
+        justify-content: start;
+        padding: 10px 20px;
+        border-bottom: 1px solid #6b6b6b;
+        
+        a {
+            color: #000000;
+        }
+
+        p {
+            padding: 0 4px;
+        }
+    }
+}

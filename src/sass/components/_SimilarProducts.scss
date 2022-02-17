@@ -1,0 +1,32 @@
+.similar {
+    margin: 40px 0;
+
+    .title {
+        color: var(--secondary-color);
+    }
+
+    .text {
+        color: rgb(121, 121, 121);
+        padding: 10px 0 20px 0;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bord {
+        margin-top: 20px;
+        margin-left: -2%;
+        width: 104%;
+        height: 4px;
+        background-color: rgb(196, 196, 196);
+
+        .line {
+            background-color: var(--secondary-color);
+            width: 70%;
+            height: 4px;
+            z-index: 10;
+        }
+    }
+}

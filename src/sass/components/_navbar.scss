@@ -1,0 +1,28 @@
+.header {
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+    
+        img {
+            height: 50px;
+        }
+
+        a {
+            color: #000;
+            margin: 0 8px;
+        }
+
+        .service{
+            margin: 0 8px;
+            
+            p {
+                margin-left: 5px;
+            }
+        }
+    }
+}

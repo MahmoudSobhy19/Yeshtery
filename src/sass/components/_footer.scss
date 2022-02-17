@@ -1,0 +1,128 @@
+.footer {
+    background-color: #3C3C3B;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .subFooter {
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+        border-bottom: 1px solid #535353;
+
+        .left {
+            width: 50%;
+
+            h1 {
+                color: var(--primary-color);
+                margin-bottom: 15px;
+                font-size: 40px;
+            }
+
+            p {
+                margin-bottom: 20px;
+                width: 90%;
+            }
+        }
+
+        .right {
+            width: 50%;
+            margin: 0 0 30px 0;
+            padding-left: 30px;
+            border-left: 1px solid #535353;
+
+            .form {
+                background-color: #ffffff;
+                border-radius: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px 0;
+                margin-top: 10px;
+
+                input {
+                    margin-left: 10px;
+                    border: none;
+                    outline: #ffffff;
+                }
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 7px;
+                    background-color: var(--primary-color);
+                    outline: var(--primary-color);
+                    border: var(--primary-color);
+                    padding: 7px 12px;
+                    border-radius: 20px;
+
+                    .icon {
+                        font-size: 16px;
+                        margin-left: 7px;
+                    }
+                }
+            }
+
+            .nav {
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                margin-top: 30px;
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        margin-bottom: 12px;
+                    }
+                }
+
+                .face, .linked, .insta, .tweet {
+                    font-size: 25px;
+                }
+
+                .face {
+                    color: #4267B2;
+                }
+
+                .insta {
+                    color: #bc2a8d;
+                }
+                
+                .linked {
+                    color: #0077b5;
+                } 
+                
+                .tweet {
+                    color: #00acee;
+                }
+
+                .icons {
+                    border-left: 1px solid #535353;
+                    padding: 30px;
+                }
+
+                .icon {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .copy-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+            img {
+                width: 80px;
+                height: 40px;
+                margin: 10px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
